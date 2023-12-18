@@ -84,27 +84,20 @@ function bd_import_settings() {
         add_option( 'breakdance_global_settings_json_string', $json_data );
     }
 
-    set_transient( '_bd_import_success', true );
+    // set_transient( '_bd_import_success', true );
 
-    wp_redirect( admin_url( 'admin.php?page=breakdance_settings&tab=export_global_styles' ) );
+    wp_redirect( site_url( '?breakdance=builder&mode=browse&returnUrl=' ) . admin_url( 'admin.php?page=breakdance_settings&&tab=global_styles/' ) );
 
     exit;
 }
 
-function bd_success_notice() {
-    if ( get_transient( '_bd_import_success' ) ) {
-        echo '<div class="notice notice-success is-dismissible"><p>Global Styles imported successfully.</p></div>';
-        delete_transient( '_bd_import_success' );
-    }
-}
-
-
 add_action( 'breakdance_loaded', function() {
     add_action( 'admin_post_bd_import_settings', 'bd_import_settings' );
     add_action( 'admin_post_bd_export_settings', 'bd_export_settings' );
-    add_action( 'admin_notices', 'bd_success_notice' );
     add_action(
         'breakdance_register_admin_settings_page_register_tabs',
         'bd_global_styles'
     );
 });
+
+
