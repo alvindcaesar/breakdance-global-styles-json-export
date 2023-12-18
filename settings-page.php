@@ -33,7 +33,7 @@
                     <li>Click on the "Browse" button.</li>
                     <li>Select the JSON file containing your Breakdance global styles that you want to import.</li>
                     <li>Click on the "Import Global Styles" button to initiate the import process.</li>
-                    <li>Once the import is complete, your Breakdance global styles will be automatically updated.</li>
+                    <li>Once the import is complete, you will be redirected to <b>Global Settings</b> page. Hit 'Save' to apply the styles.</li>
                 </ol>
             <p>Please note that importing settings from a JSON file will overwrite your current Breakdance global styles, so make sure to back up your current global styles before importing.</p>   
             </td>
