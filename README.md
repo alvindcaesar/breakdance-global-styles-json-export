@@ -11,7 +11,7 @@ The **Breakdance Global Styles JSON Export** WordPress plugin allows users to ex
 
 ## Installation
 
-1. Download the plugin ZIP file [here](https://github.com/alvindcaesar/breakdance-global-styles-json-export/releases/download/1.0.0/breakdance-global-styles-json-export.zip).
+1. Download the plugin ZIP file [here](https://github.com/alvindcaesar/breakdance-global-styles-json-export/releases/download/1.0.1/breakdance-global-styles-json-export.zip).
 2. Log in to your WordPress admin dashboard.
 3. Navigate to **Plugins > Add New**.
 4. Click on the **Upload Plugin** button, select the ZIP file, and click **Install Now**.
@@ -52,9 +52,3 @@ Contributions are welcome! Feel free to submit a pull request.
 ## Screenshots
 
 ![Setting Page](.github/Screenshot-1.png)
-
-## Credits
-
-This plugin is developed by Alvind Caesar.
-
-Thank you for using the Breakdance Global Styles JSON Export WordPress plugin!
